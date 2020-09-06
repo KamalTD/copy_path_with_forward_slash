@@ -15,6 +15,7 @@ pip install clipboard
  
  - In cpwfs.reg file
  
+ change the path in all keys to your python 'pythonw.exe' path and the path of 'copy_path_with_forward_slash.py' in yout hard drive before you run it
  
- 
+ C:\\Python27\\pythonw.exe G:\\code_path\\copy_path_with_forward_slash.py
  
