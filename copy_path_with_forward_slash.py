@@ -3,15 +3,13 @@ from threading import Thread
 import time
 import sys
 
-# while True:
-#     arg = sys.argv[1]
-#     print arg
 def fix_backslash():
-    #while True:
-    text = sys.argv[1]
-    clipboard.copy(text.replace("\\","/"))
-    #time.sleep(0.3)
-
+    
+    text = sys.argv[1:]
+    new_text = "".join(str(elem + " ") for elem in text)
+    clipboard.copy(new_text.replace("\\","/"))
+    
+    
 def thread_run():
     Thread(target=fix_backslash).start()
 
