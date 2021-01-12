@@ -20,7 +20,9 @@ pip install clipboard
  C:\\Python27\\pythonw.exe G:\\code_path\\copy_path_with_forward_slash.py
  
  #########################################################
- Now you can use script 
- Right click in any directory white space or on any folder of file
+ 
+ - Now you can use script 
+ 
+ Right click in any directory white space , or right click on any folder or file and choose "Copy Path With Forward Slash"
  
  ![alt text](https://github.com/KamalTD/copy_path_with_forward_slash/blob/master/Untitled.png)
